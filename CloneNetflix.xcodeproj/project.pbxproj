@@ -18,6 +18,7 @@
 		FCEF81D528D387F7004EC33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEF81D428D387F7004EC33C /* Assets.xcassets */; };
 		FCEF81D828D387F7004EC33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF81D628D387F7004EC33C /* LaunchScreen.storyboard */; };
 		FCEF81E028D38CEC004EC33C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF81DF28D38CEC004EC33C /* MainTabBarViewController.swift */; };
+		FCF6C53628E4F7F000E9987C /* HeroHeaderUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6C53528E4F7F000E9987C /* HeroHeaderUiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FCEF81D728D387F7004EC33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCEF81D928D387F7004EC33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCEF81DF28D38CEC004EC33C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		FCF6C53528E4F7F000E9987C /* HeroHeaderUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				FC82C2F928D5C1BB009FBAE5 /* CollectionViewTableViewCell.swift */,
+				FCF6C53528E4F7F000E9987C /* HeroHeaderUiView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				FCEF81CC28D387F6004EC33C /* AppDelegate.swift in Sources */,
 				FCEF81CE28D387F6004EC33C /* SceneDelegate.swift in Sources */,
 				FC93142F28D3966800B56DA1 /* HomeViewController.swift in Sources */,
+				FCF6C53628E4F7F000E9987C /* HeroHeaderUiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

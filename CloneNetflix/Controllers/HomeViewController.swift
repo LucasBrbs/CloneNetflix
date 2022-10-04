@@ -18,8 +18,12 @@ class HomeViewController: UIViewController {
         // isso poderia ficar em configure views?
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
+        
+        
         // espaçamento da table view para a parte de cima da tela
-        homeFeedTable.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
+        
+        let headerView = HeroHeaderUiView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
+        homeFeedTable.tableHeaderView = headerView
         
         applyViewCode()
     }
